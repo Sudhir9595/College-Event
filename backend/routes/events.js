@@ -194,8 +194,8 @@ router.get('/:id/download', protect, adminOnly, async (req, res) => {
         name:  reg.user?.name  || '—',
         email: reg.user?.email || '—',
         mob:   reg.user?.mobile|| '—',
-        date:  d.toLocaleDateString('en-IN', { day:'numeric', month:'short', year:'numeric' }),
-        time:  d.toLocaleTimeString('en-IN', { hour:'2-digit', minute:'2-digit' }),
+        date:  d.toLocaleDateString('en-IN', { day:'numeric', month:'short', year:'numeric', timeZone:'Asia/Kolkata' }),
+        time:  d.toLocaleTimeString('en-IN', { hour:'2-digit', minute:'2-digit', timeZone:'Asia/Kolkata' }),
       });
       row.height = 18;
       row.eachCell(c => {
