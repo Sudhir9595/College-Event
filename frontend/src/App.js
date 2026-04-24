@@ -532,7 +532,7 @@ function Login({ onSwitch, onLogin, toast }) {
         <h1 className="ah fu">Welcome back</h1>
         <p className="as fu">Sign in to your campus account</p>
         
-        <div className="or-div fu2"><div className="or-line"/><span className="or-txt">or sign in with email</span><div className="or-line"/></div>
+        <div className="or-div fu2"><div className="or-line"/><span className="or-txt">sign in with email</span><div className="or-line"/></div>
         {err && <div className="err-box fi">⚠️ {err}</div>}
         <div className="fg fu3">
           <label className="fl">Email Address</label>
