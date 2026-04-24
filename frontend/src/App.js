@@ -467,8 +467,8 @@ function Signup({ onSwitch, onLogin, toast }) {
           <div className="fg">
             <label className="fl">Role</label>
             <div className="role-pills">
-              <button className={`rpill ${f.role==='student'?'on':''}`} onClick={()=>set('role','student')}>👨‍🎓 Student</button>
-              <button className={`rpill ${f.role==='admin'?'on':''}`}   onClick={()=>set('role','admin')}>🔧 Admin</button>
+              <button className={`rpill ${f.role==='student'?'on':''}`} onClick={()=>set('role','student')}> Student</button>
+              <button className={`rpill ${f.role==='admin'?'on':''}`}   onClick={()=>set('role','admin')}> Teacher</button>
             </div>
           </div>
         </div>
