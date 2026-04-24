@@ -531,9 +531,7 @@ function Login({ onSwitch, onLogin, toast }) {
         <div className="mob-logo fu"><div className="mob-box">CE</div><span className="mob-txt">Campus<em>Events</em></span></div>
         <h1 className="ah fu">Welcome back</h1>
         <p className="as fu">Sign in to your campus account</p>
-        <button className="google-btn fu2" onClick={()=>toast.inf('Google sign-in coming soon!')}>
-          <div className="g-ico">G</div>Continue with Google
-        </button>
+        
         <div className="or-div fu2"><div className="or-line"/><span className="or-txt">or sign in with email</span><div className="or-line"/></div>
         {err && <div className="err-box fi">⚠️ {err}</div>}
         <div className="fg fu3">
